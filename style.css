@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+	background-color: #fdfdfd;
+  height: 100%;
+	color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 20px;
+  color: #333;
+  font-size: 50px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.flex-wrapper {
+	display: flex;
+  min-height: 10vh;
+  flex-direction: column;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+#green-terminal {
+	color: #00ff00;
+  font-family: 'Inconsolata', monospace;
+}
+
+.font-header {
+	font-family: 'Inconsolata', monospace;
+}
+
+header {
+	background-color: #1b1b1b;
+	color: #fff;
+	padding: 35px 15px;
+  padding-top: 15px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header .left {
+	float: left;
+}
+
+header .right {
+	float: right;
+}
+
+header .right a {
+	margin-left: 20px;
+    
+}
+
+h1 {
+  font-family: 'JetBrains Mono',monospace; 
+}
+
+h1#st {
+	margin-top: 40px;
+  margin-left: 365px;
+  border-bottom: 2px solid #0d6efd;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+h1#mad-logic {
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'JetBrains Mono',monospace; 
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 20px;
+}
+
+p b {
+	font-size: 2em;
+}
+
+a {
+	color: #0d6efd;
+	text-decoration: none;
+  font-size: 1.1em;
+}
+
+a:hover {
+	color: #0226f5;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 10;
+  padding-bottom: 0;
+}
+
+#play-link {
+  color: #afafaf;
+}
+
+#play-link:hover {
+  color: #ffffff;
+}
+
+
+#box1 {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 0px;
+    text-align: center;
+    width: 670px;
+    height: 360px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+#box2 {
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 5px solid #333;
+  border-radius: 0px;
+  text-align: center;
+  width: 670px;
+  height: 290px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 991px) {
+  #box1,
+  #box2 {
+    width: auto;
+    height: auto;
+  }
+}
+
+#box1 p,
+#box2 p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
