@@ -1,5 +1,7 @@
 <!-- Hey there! You've stumbled upon a secret message. You deserve a virtual high-five for your skills! Keep up the great work! -->
+<!-- Salim is greeting you with a big smile! --> 
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://mad-logic.netlify.app/</loc>
 </url>
@@ -20,5 +22,3 @@
 <lastmod>2023-05-17T17:00:21+01:00</lastmod>
 </url>
 </urlset>
-
-<!-- Salim is greeting you with a big smile! --> 
