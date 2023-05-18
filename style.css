@@ -124,6 +124,23 @@ img {
   padding-bottom: 0;
 }
 
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0226f5;
+}
+
+.button:focus {
+  outline: none;
+}
+
 #play-link {
   color: #afafaf;
 }
